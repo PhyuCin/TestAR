@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'texture',
+      parameters: [
+        {
+          baseColor: 'AlienYellow',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/AlienYellow.obj',
+    name: 'AlienYellow',
+    recenter: 'root',
+    scale: 0.041667000000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\AlienYellow.png',
+      name: 'AlienYellow',
+      pipeline_name: 'AlienYellow.png',
+    },
+  ],
+  version: '0.54:2',
+}
